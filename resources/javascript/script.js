@@ -11,8 +11,9 @@ function printText(){
 
     }
     function updateHeader(){
-        let value3= document.getElementById("bt1")
-        value3.removeAttribute();
+        let value3= document.getElementById("hh3")
+        value3.setAttribute("class","none")
+       
     }
     
 }  
